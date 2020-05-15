@@ -1,0 +1,102 @@
+#loading{
+		background: rgb(255,255,250);
+		z-index: 100000;
+		position: fixed;
+		display: flex;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+		margin-top: -2vh;
+}
+
+
+
+#load1{		
+		position: fixed;
+		margin-top: 40vh;
+		height: 200px;
+		width: 200px;
+		border-radius: 50%;
+		
+		border-top: solid blue 0.5vh;
+		
+		animation: animate1 2s linear infinite;
+}
+
+#load2{		
+		position: fixed;
+		margin-top: 44vh;
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		border-bottom: solid red 0.5vh;
+		
+		animation: animate2 1.5s linear infinite;
+}
+
+#load3{		
+		position: fixed;
+		margin-top: 46vh;
+		height: 100px;
+		width: 100px;
+
+		border-radius: 50%;
+		border-bottom: solid blue 0.5vh;
+		animation: animate3 2.5s linear infinite;
+}
+
+#load4{		
+		position: fixed;
+		margin-top: 48vh;
+		height: 50px;
+		width: 50px;
+	
+		border-radius: 50%;
+		border-top: solid red 0.5vh;
+		animation: animate3 0.5s linear infinite;
+}
+
+@keyframes animate1{
+			0%{
+				transform: rotate(0deg);
+			}
+
+			100%{
+				transform: rotate(360deg);
+			}
+}
+
+@keyframes animate2{
+			0%{
+				transform: rotate(0deg);
+			}
+
+			100%{
+				transform: rotate(360deg);
+			}
+}
+
+@keyframes animate3{
+			0%{
+				transform: rotate(0deg);
+			}
+
+			100%{
+				transform: rotate(360deg);
+			}
+}
+
+
+@keyframes animate4{
+			0%{
+				transform: rotate(0deg);
+			}
+
+			100%{
+				transform: rotate(360deg);
+			}
+}
+
+
+
+
